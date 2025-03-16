@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Grammar Lessons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>A1 Grammar Lessons</h1>
+        
+        <div class="lesson">
+            <h2>1. Sentence Structure</h2>
+            <p>English sentences usually follow the Subject-Verb-Object order. Example: <strong>I like apples.</strong></p>
+            <div class="quiz" data-answer="Subject-Verb-Object">
+                <p>What is the correct sentence structure?</p>
+                <button onclick="checkAnswer(this)">Subject-Verb-Object</button>
+                <button onclick="checkAnswer(this)">Verb-Object-Subject</button>
+                <p class="result"></p>
+            </div>
+        </div>
+
+        <div class="lesson">
+            <h2>2. Present Simple</h2>
+            <p>We use the present simple for habits and general truths. Example: <strong>He eats breakfast at 8 AM.</strong></p>
+            <div class="quiz" data-answer="He eats breakfast at 8 AM.">
+                <p>Which sentence is in the present simple?</p>
+                <button onclick="checkAnswer(this)">He is eating breakfast.</button>
+                <button onclick="checkAnswer(this)">He eats breakfast at 8 AM.</button>
+                <p class="result"></p>
+            </div>
+        </div>
+
+        <div class="lesson">
+            <h2>3. Articles</h2>
+            <p>We use 'a' and 'an' for singular indefinite nouns and 'the' for specific nouns. Example: <strong>I have an apple.</strong></p>
+            <div class="quiz" data-answer="I have an apple.">
+                <p>Which sentence uses the correct article?</p>
+                <button onclick="checkAnswer(this)">I have an apple.</button>
+                <button onclick="checkAnswer(this)">I have a orange.</button>
+                <p class="result"></p>
+            </div>
+        </div>
+
+        <div class="lesson">
+            <h2>4. Pronouns</h2>
+            <p>Pronouns replace nouns. Examples: <strong>I, you, he, she, it, we, they.</strong></p>
+            <div class="quiz" data-answer="He is my friend.">
+                <p>Which sentence uses a pronoun correctly?</p>
+                <button onclick="checkAnswer(this)">Him is my friend.</button>
+                <button onclick="checkAnswer(this)">He is my friend.</button>
+                <p class="result"></p>
+            </div>
+        </div>
+
+        <div class="lesson">
+            <h2>5. Basic Prepositions</h2>
+            <p>Prepositions show location or time. Examples: <strong>in, on, at, under, next to.</strong></p>
+            <div class="quiz" data-answer="The book is on the table.">
+                <p>Which sentence uses a preposition correctly?</p>
+                <button onclick="checkAnswer(this)">The book is on the table.</button>
+                <button onclick="checkAnswer(this)">The book is table the on.</button>
+                <p class="result"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js">     </script>
+</body>
+</html>
